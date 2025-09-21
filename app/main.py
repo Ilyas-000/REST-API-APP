@@ -10,7 +10,7 @@ from .auth import verify_api_key
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
-    title="Organizations API",
+    title="Orgpipanizations API",
     description="REST API для справочника организаций, зданий и деятельности",
     version="1.0.0"
 )
