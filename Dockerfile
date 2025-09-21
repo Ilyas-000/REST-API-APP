@@ -13,6 +13,6 @@ COPY alembic.ini .
 COPY init.sh .
 RUN chmod +x init.sh
 
-EXPOSE
+EXPOSE 8000
 
 CMD ["./init.sh"]
