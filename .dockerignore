@@ -60,7 +60,7 @@ docker-compose.yml
 docker-compose.*.yml
 
 # Development files
-tests/test_data.py
+test_data.py
 tests/api_examples.py
 tests/stress_test.py
 tests/monitoring.py
